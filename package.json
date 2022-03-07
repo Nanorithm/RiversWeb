@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "devstart": "DEBUG=RiversWeb:* nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,9 +16,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  },
-  "scripts": {
-    "start": "node ./bin/www",
-    "devstart": "DEBUG=RiversWeb:* nodemon ./bin/www"
   }
 }
